@@ -54,7 +54,7 @@ $(document).on("click", "#btnSave", function(event)
 // UPDATE==========================================
 $(document).on("click", ".btnUpdate", function(event)
 {
-	$("#hidItemIDSave").val($(this).data("id"));
+	$("#hidItemIDSave").val($(this).data("fundid"));
 	$("#email").val($(this).closest("tr").find('td:eq(0)').text());
 	$("#name").val($(this).closest("tr").find('td:eq(1)').text());
 	$("#address").val($(this).closest("tr").find('td:eq(2)').text());
